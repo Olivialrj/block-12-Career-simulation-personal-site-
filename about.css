@@ -10,15 +10,16 @@ div {
     text-align: center;
     justify-content: space-evenly;
     margin: auto;
-    background-color: white;
+    background-color: a5978b;
     padding: 3%;
 }
 
 section {
-    background-color: white;
+    background-color: 5c4742;
     padding: 10px;
     margin: 10px;
-    border-bottom: solid 3px hotpink;
+    border-bottom: solid 3px #8d5b4c;
+    color: white;
 } 
 
 section > h2 {
