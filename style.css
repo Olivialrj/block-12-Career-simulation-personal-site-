@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: 3a0ca3;
 }
 
 header > p {
@@ -7,11 +7,13 @@ header > p {
     margin-left: 25px;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+    color: white
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 nav {
@@ -38,7 +40,8 @@ section > img {
 }
 
 .home-about {
-  background-color: white;
+  background-color: 4361ee;
+  color: white;
   width: 400px;
   height: 45%;
   margin: 30px;
