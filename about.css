@@ -3,19 +3,22 @@ body {
     text-align: center;
 }
 div {
-   height: 90%;
-   width: 50%;
+   height: 100%;
+   width: 45%;
    background-color: 4361ee;
    flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    margin: auto  
+    margin: auto;
+    background-color: white;
+    padding: 3%;
 }
 
 section {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-bottom: solid 3px hotpink;
 } 
 
 section > h2 {
@@ -23,7 +26,8 @@ section > h2 {
 }
 
 section > p {
-    display: inline;
+    display: flow-root;
+
 }
 
 section > img {
