@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: c4bbaf;
 }
 
 header > p {
@@ -7,11 +7,14 @@ header > p {
     margin-left: 25px;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+    color: white
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    color: white;
+    margin-bottom: 100px;
 }
 
 nav {
@@ -24,7 +27,6 @@ nav {
 }
 
 div {
-  /* display: inline-block; */
   height: 90%;
   width: auto;
   display: flex;
@@ -32,13 +34,14 @@ div {
   align-items: center;
 }
 
-section > img {
+#img {
   border-radius: 50%;
-  height: 50%;
+  height: 50vh;
 }
 
 .home-about {
-  background-color: white;
+  background-color: 5c4742;
+  color: white;
   width: 400px;
   height: 45%;
   margin: 30px;
@@ -47,4 +50,4 @@ section > img {
 
 @media (max-width 600px) {
   font-size: 1rem;
-}
+} 
