@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="contact.css"/>
+    </head>
+
+    <body>
+        <header>
+            <p>Contact me</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portoflio</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>   
+        </header>
+
+        <h1>Contact me</h1>
+        <main>
+            <form>
+                <label for="title">Title:</label>
+                <label for="title">Mr.</label>
+                <input type="radio" id="Mr." name="title">
+                <label for="title">Ms.</label>
+                <input type="radio" id="Ms." name="title">
+                <br>
+
+              <section>
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text" required />
+      
+
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text" required />
+                <br>
+              </section>
+
+                <label for="email">Email:</label>
+                <input type="email" required/>
+                <br>
+
+                <label for="message">Messsage:</label>
+                <textarea id="message" name="message" minlength="10" rows="5" cols="25"></textarea>
+                <br> 
+
+                <input value="Send" type="submit"/>
+            </form>
+        </main>
+
+    </body>
+</html>
