@@ -5,21 +5,22 @@ body {
 div {
    height: 100%;
    width: 45%;
-   background-color: 4361ee;
    flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
     margin: auto;
-    background-color: a5978b;
+    background-color: c4bbaf;
     padding: 3%;
 }
 
 section {
-    background-color: 5c4742;
+    background-color: a5978b;
     padding: 10px;
     margin: 10px;
     border-bottom: solid 3px #8d5b4c;
     color: white;
+    border-radius: 10%;
+    font-size: 1em;
 } 
 
 section > h2 {
